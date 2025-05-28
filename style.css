@@ -129,25 +129,26 @@ select {
 table {
     /* Стили для таблицы */
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 th {
     font-weight: 700;
-    font-size: 14px;
+    /*font-size: 14px;*/
     text-align: center;
     color: #303030;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 10px 15px;
+    padding: 12px 15px;
     border: 1px solid #95a1bb;
 }
 
 footer {
     /* Стили для футера */
     background: rgba(163, 167, 255, 0.3);
-    padding: 25px 0;
+    padding: 26px 0;
 }
 
 .footer-link {
